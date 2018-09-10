@@ -18,6 +18,7 @@ def launch_analysis(data_file):
         preview = f.readline() # read the first line
         
         print("Preview of the file :{}".format(preview))
-
+   
+    
 if __name__ == '__main__':
     launch_analysis('current_mps.csv')
